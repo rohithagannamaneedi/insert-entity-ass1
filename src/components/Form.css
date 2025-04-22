@@ -1,0 +1,50 @@
+.form-container {
+    max-width: 2000px;
+    margin: 20px auto;
+    padding: 100px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color:rgb(0, 213, 220);
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color:rgb(166, 0, 255);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
